@@ -10,7 +10,6 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            // "program": "${workspaceFolder}/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files.dll",
             "program": "${workspaceFolder}/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files.dll",
             "args": [],
             "cwd": "${workspaceFolder}/mslearn-dotnet-files",
