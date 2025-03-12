@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files.dll",
+            "program": "${workspaceFolder}/ContosoPizza/bin/Debug/net8.0/ContosoPizza.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/mslearn-dotnet-files",
+            "cwd": "${workspaceFolder}/ContosoPizza",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             // To handle terminal input while debugging
             "console": "integratedTerminal",
@@ -21,7 +21,7 @@
         {
             "name": ".NET Core Attach",
             "type": "coreclr",
-            "request": "attach"
+            "request": "attach",
         }
     ]
 }
