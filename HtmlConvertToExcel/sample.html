@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        tr:hover {
+            background-color: #e6f7ff;
+        }
+        
+        .status-active {
+            color: green;
+            font-weight: bold;
+        }
+        
+        .status-inactive {
+            color: red;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Directory</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Position</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>John Smith</td>
+                    <td>Engineering</td>
+                    <td>Software Developer</td>
+                    <td><span class="status-active">Active</span></td>
+                    <td><a href="#" class="button">View</a></td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Jane Doe</td>
+                    <td>Marketing</td>
+                    <td>Marketing Specialist</td>
+                    <td><span class="status-active">Active</span></td>
+                    <td><a href="#" class="button">View</a></td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Robert Johnson</td>
+                    <td>Finance</td>
+                    <td>Accountant</td>
+                    <td><span class="status-inactive">Inactive</span></td>
+                    <td><a href="#" class="button">View</a></td>
+                </tr>
+                <tr>
+                    <td>1004</td>
+                    <td>Emily Williams</td>
+                    <td>Human Resources</td>
+                    <td>HR Manager</td>
+                    <td><span class="status-active">Active</span></td>
+                    <td><a href="#" class="button">View</a></td>
+                </tr>
+                <tr>
+                    <td>1005</td>
+                    <td>Michael Brown</td>
+                    <td>Sales</td>
+                    <td>Sales Representative</td>
+                    <td><span class="status-active">Active</span></td>
+                    <td><a href="#" class="button">View</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
