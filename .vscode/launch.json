@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/ContosoPizza/bin/Debug/net8.0/ContosoPizza.dll",
+            "program": "${workspaceFolder}/Classes_M1/bin/Debug/net8.0/Classes_M1.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ContosoPizza",
+            "cwd": "${workspaceFolder}/Classes_M1",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             // To handle terminal input while debugging
             "console": "integratedTerminal",
